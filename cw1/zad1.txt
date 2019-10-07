@@ -1,0 +1,50 @@
+Raport:
+Google translator jako jedyny kiedy WASHINGTON w źródle jest napisane z dużej litery, również zastosował duże litery i zachował te same odstępy przy słowie Waszyngton.
+Porównanie Google kontra Bing i DeepL: "Czterej republikańscy kongresmeni" - "czterech Republikarzy kongresmenów" "zterech Republikarzy kongresmenów"
+Brak tłumaczenia biura owalnego w Bingu i DeepL.
+Google kontra DeepL i Bing:
+1) "aby wygrać było wbijać swojego rywala Bill Clinton" kontra "na zwycięstwo jest udaremnienie patriotyzmu jego pretendenta Billa Clintona"
+2) "nowożytnej, republikańskiej i demokratycznej" kontra "nowożytnej, Republikańska i Demokratyczna,"
+Widać, że DeepL i Bing tłumaczą w bardzo podobnym stylu, oba nie rozpoznają tych samych słów.
+Jako najlepsze tłumaczenie uznaje Google translate.
+
+
+Źródło: 
+WASHINGTON — One day in October 1992, four Republican congressmen showed up in the Oval Office with an audacious recommendation. 
+President George Bush was losing his re-election race, and they told him the only way to win was to hammer his challenger Bill Clinton’s patriotism for protesting the Vietnam War while in London and visiting Moscow as a young man.
+Mr. Bush was largely on board with that approach. 
+But what came next crossed the line, as far as he and his team were concerned. 
+“They wanted us to contact the Russians or the British to seek information on Bill Clinton’s trip to Moscow,” James A. Baker III, Mr. Bush’s White House chief of staff, wrote in a memo later that day. 
+“I said we absolutely could not do that.”
+President Trump insists he and his attorney general did nothing wrong by seeking damaging information about his domestic opponents from Ukraine, Australia, Italy and Britain or by publicly calling on China to investigate his most prominent Democratic challenger. 
+But for every other White House in the modern era, Republican and Democratic, the idea of enlisting help from foreign powers for political advantage was seen as unwise and politically dangerous, if not unprincipled.
+
+Google translate: 
+WASZYNGTON - Pewnego dnia w październiku 1992 r. Czterej republikańscy kongresmeni pojawili się w Biurze Owalnym z odważną rekomendacją. 
+Prezydent George Bush przegrał wyścig reelekcyjny, a oni powiedzieli mu, że jedynym sposobem na zwycięstwo jest udaremnienie patriotyzmu jego pretendenta Billa Clintona za protest przeciwko wojnie w Wietnamie podczas pobytu w Londynie i odwiedzanie Moskwy jako młody człowiek.
+Pan Bush był w dużej mierze zaangażowany w takie podejście. 
+Ale to, co stało się później, przekroczyło linię, o ile on i jego zespół byli zainteresowani. 
+„Chcieli, abyśmy skontaktowali się z Rosjanami lub Brytyjczykami w celu uzyskania informacji o podróży Billa Clintona do Moskwy” - napisał James A. Baker III, szef sztabu Białego Domu Busha później tego samego dnia. 
+„Powiedziałem, że absolutnie nie możemy tego zrobić”.
+Prezydent Trump nalega, aby on i jego prokurator generalny nie zrobili nic złego, szukając szkodliwych informacji o swoich krajowych przeciwnikach z Ukrainy, Australii, Włoch i Wielkiej Brytanii lub publicznie wzywając Chiny do przeprowadzenia dochodzenia w sprawie jego najwybitniejszego demokratycznego pretendenta. 
+Ale dla każdego innego Białego Domu w epoce nowożytnej, republikańskiej i demokratycznej, pomysł skorzystania z pomocy obcych mocarstw dla korzyści politycznych był postrzegany jako nierozsądny i niebezpieczny politycznie, jeśli nie pozbawiony zasad.
+
+Bing translate: 
+Waszyngton-pewnego dnia w październiku 1992, czterech Republikarzy kongresmenów pojawił się w Oval Office z Audacious zalecenie. 
+Prezydent George Bush stracił reelekcję wyścigu, i powiedzieli mu, że jedynym sposobem, aby wygrać było wbijać swojego rywala Bill Clinton patriotyzm protestujących wojny wietnamskiej, podczas gdy w Londynie i zwiedzanie Moskwy jako młody człowiek.
+Pan Bush był w dużej mierze na pokładzie tego podejścia. 
+Ale to, co przyszło dalej przekroczyła linię, o ile on i jego zespół byli zaniepokojani. 
+"Chcieli, abyśmy skontakowali się z Rosjanami lub Brytyjczykami, aby poszukiwać informacji o podróży Billa Clintona do Moskwy", James A. Baker III, szef załogi białego domu Pana Busha, napisał w notatce później tego dnia. 
+"Powiedziałem, że absolutnie nie mogłem tego zrobić."
+Prezydent Trump twierdzi, że i jego prokurator generalny nie zrobił nic złego, szukając szkodliwych informacji o swoich krajowych przeciwników z Ukrainy, Australii, Włoch i Wielkiej Brytanii lub publicznie wzywając Chiny do zbadania jego najbardziej znanych demokratycznego pretendenta. 
+Ale dla każdego innego białego domu w epoce nowożytnej, Republikańska i Demokratyczna, idea rejestrowanie pomocy od obcych uprawnień do przewagi politycznej był postrzegany jako nierozsądne i politycznie niebezpieczne, jeśli nie niejednoznaczny.
+
+DeepL:
+Waszyngton-pewnego dnia w październiku 1992, czterech Republikarzy kongresmenów pojawił się w Oval Office z Audacious zalecenie. 
+Prezydent George Bush stracił reelekcję wyścigu, i powiedzieli mu, że jedynym sposobem, aby wygrać było wbijać swojego rywala Bill Clinton patriotyzm protestujących wojny wietnamskiej, podczas gdy w Londynie i zwiedzanie Moskwy jako młody człowiek.
+Pan Bush był w dużej mierze na pokładzie tego podejścia. 
+Ale to, co przyszło dalej przekroczyła linię, o ile on i jego zespół byli zaniepokojani. 
+"Chcieli, abyśmy skontakowali się z Rosjanami lub Brytyjczykami, aby poszukiwać informacji o podróży Billa Clintona do Moskwy", James A. Baker III, szef załogi białego domu Pana Busha, napisał w notatce później tego dnia. 
+"Powiedziałem, że absolutnie nie mogłem tego zrobić."
+Prezydent Trump twierdzi, że i jego prokurator generalny nie zrobił nic złego, szukając szkodliwych informacji o swoich krajowych przeciwników z Ukrainy, Australii, Włoch i Wielkiej Brytanii lub publicznie wzywając Chiny do zbadania jego najbardziej znanych demokratycznego pretendenta. 
+Ale dla każdego innego białego domu w epoce nowożytnej, Republikańska i Demokratyczna, idea rejestrowanie pomocy od obcych uprawnień do przewagi politycznej był postrzegany jako nierozsądne i politycznie niebezpieczne, jeśli nie niejednoznaczny.
