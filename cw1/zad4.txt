@@ -1,0 +1,8 @@
+1. wp.pl - "Eliminacje Euro 2020. Robert Lewandowski, czyli Kiler-ów 2-óch"
+Kiler-ów błąd, poprawne to Kilerów
+2. https://sportowefakty.wp.pl/pilka-nozna/847467/eliminacje-euro-2020-robert-lewandowski-czyli-kiler-ow-2-och
+ciesząc się że Austriacy błąd, poprawne to ciesząc się, że Austriacy
+3. "O mój Boże"! błąd ponieważ dwa akapity zamykające zamiast jednego otwierającego i jednego zamykającego
+4. "Kapitan strzelił tylko dwa gole - po jednym", błąd (spacje wokół dywizu są zbędne)
+5. "Ale też - żeby być sprawiedliwym" błąd poprawnie jest "Ale też, żeby być sprawiedliwym"
+6. Polska grała a to jednym snajperem, błąd  poprawnie to Polska grała, a to jednym snajperem
