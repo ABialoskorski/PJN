@@ -1,0 +1,1007 @@
+
+
+<!DOCTYPE html>
+<html lang="pl-pl" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <!--[if lt IE 9]>
+  <script src="/templates/uamwmii/js/html5.js"></script>
+  <![endif]-->
+  <!--
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  -->
+	<!-- The following JDOC Head tag loads all the header and meta information from your site config and content. -->
+	<base href="https://www.wmi.amu.edu.pl/pl/pracownicy" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="wmi, Wydział Matematyki i Informatyki, matematyka, informatyka, UAM, Uniwersytet im. Adama Mickiewicza, Poznań, pracownicy, pracownik, kadra, " />
+	<meta name="generator" content="Joomla! - Open Source Content Management" />
+	<title>Pracownicy</title>
+	<link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<link href="https://www.wmi.amu.edu.pl/pl/component/search/?Itemid=504&amp;format=opensearch" rel="search" title="Szukaj Wydział Matematyki i Informatyki" type="application/opensearchdescription+xml" />
+	<link href="/media/system/css/modal.css?1a0bd8daeaf173abe199ac7c2e00deee" rel="stylesheet" type="text/css" />
+	<link href="/plugins/system/hotlogin/extra/hotlogin.css" rel="stylesheet" type="text/css" />
+	<link href="/media/mod_pwebfblikebox/css/likebox.css" rel="stylesheet" type="text/css" />
+	<link href="/media/com_icagenda/icicons/style.css" rel="stylesheet" type="text/css" />
+	<link href="/components/com_icagenda/themes/packs/ic_rounded/css/ic_rounded_module.css" rel="stylesheet" type="text/css" />
+	<link href="/media/mod_languages/css/template.css?1a0bd8daeaf173abe199ac7c2e00deee" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+div.mod_search63 input[type="search"]{ width:auto; }
+@media screen and (min-width:1201px){
+
+
+}
+
+@media screen and (min-width:769px) and (max-width:1200px){
+
+
+}
+
+@media screen and (min-width:481px) and (max-width:768px){
+
+
+.ic_rounded.iccalendar table td .icevent a:hover,
+.ic_rounded.iccalendar table td .icevent a:focus {
+	border-radius:3px;
+	background:#333;
+}
+.ic_rounded.iccalendar table td .icevent a:hover .bright,
+.ic_rounded.iccalendar table td .icevent a:focus .bright {
+	border-radius:3px;
+	color:#fff;
+	background:#333;
+}
+.ic_rounded.iccalendar table td .icmulti a:hover,
+.ic_rounded.iccalendar table td .icevent a:focus {
+	background:#333;
+}
+.ic_rounded.iccalendar table td .icmulti a:hover .bright,
+.ic_rounded.iccalendar table td .icevent a:focus .bright {
+	color:#fff;
+	background:#333;
+}
+
+
+.ic_rounded .icnav .backic:hover,
+.ic_rounded .icnav .nextic:hover,
+.ic_rounded .icnav .backicY:hover,
+.ic_rounded .icnav .nexticY:hover {
+	color:#333333;
+	background:none;
+	cursor:pointer;
+}
+#ictip a.close:hover {
+	color:black;
+	background:none;
+	cursor:pointer;
+}
+#ictip div.linkTo:hover {
+	color:#000;
+	background:#ddd;
+	text-decoration:none;
+	border-radius:3px;
+}
+#ictip a:hover {
+	background:none;
+}
+
+}
+
+@media screen and (max-width:480px){
+
+
+
+	#ictip a.close {
+		padding-right:15px;
+	}
+
+}
+
+	</style>
+	<script type="application/json" class="joomla-script-options new">{"csrf.token":"191c314dc42e332cf44d0314b833efc2","system.paths":{"root":"","base":""},"joomla.jtext":{"JLIB_FORM_FIELD_INVALID":"Niepoprawne pole:&#160"},"system.keepalive":{"interval":840000,"uri":"\/pl\/component\/ajax\/?format=json"}}</script>
+	<script src="/media/system/js/mootools-core.js?1a0bd8daeaf173abe199ac7c2e00deee" type="text/javascript"></script>
+	<script src="/media/system/js/core.js?1a0bd8daeaf173abe199ac7c2e00deee" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery.min.js?1a0bd8daeaf173abe199ac7c2e00deee" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-noconflict.js?1a0bd8daeaf173abe199ac7c2e00deee" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-migrate.min.js?1a0bd8daeaf173abe199ac7c2e00deee" type="text/javascript"></script>
+	<script src="/media/system/js/punycode.js?1a0bd8daeaf173abe199ac7c2e00deee" type="text/javascript"></script>
+	<script src="/media/system/js/validate.js?1a0bd8daeaf173abe199ac7c2e00deee" type="text/javascript"></script>
+	<script src="/media/system/js/mootools-more.js?1a0bd8daeaf173abe199ac7c2e00deee" type="text/javascript"></script>
+	<script src="/media/system/js/modal.js?1a0bd8daeaf173abe199ac7c2e00deee" type="text/javascript"></script>
+	<script src="/media/system/js/caption.js?1a0bd8daeaf173abe199ac7c2e00deee" type="text/javascript"></script>
+	<script src="/plugins/system/hotlogin/extra/hotlogin.js" type="text/javascript"></script>
+	<!--[if lt IE 9]><script src="/media/system/js/polyfill.event.js?1a0bd8daeaf173abe199ac7c2e00deee" type="text/javascript"></script><![endif]-->
+	<script src="/media/system/js/keepalive.js?1a0bd8daeaf173abe199ac7c2e00deee" type="text/javascript"></script>
+	<script src="/media/jui/js/bootstrap.min.js?1a0bd8daeaf173abe199ac7c2e00deee" type="text/javascript"></script>
+	<script src="/media/mod_pwebfblikebox/js/mootools.likebox.js" type="text/javascript"></script>
+	<!--[if lt IE 9]><script src="/media/system/js/html5fallback.js?1a0bd8daeaf173abe199ac7c2e00deee" type="text/javascript"></script><![endif]-->
+	<script src="/modules/mod_iccalendar/js/jQuery.highlightToday.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});
+      var HL_open  = false;
+      var HLopacity  = 0.9;
+jQuery(function($){ initTooltips(); $("body").on("subform-row-add", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(".hasTooltip").tooltip({"html": true,"container": "body"});} });
+jQuery(function($) {
+			SqueezeBox.initialize({});
+			initSqueezeBox();
+			$(document).on('subform-row-add', initSqueezeBox);
+
+			function initSqueezeBox(event, container)
+			{
+				SqueezeBox.assign($(container || document).find('a.modal').get(), {
+					parse: 'rel'
+				});
+			}
+		});
+
+		window.jModalClose = function () {
+			SqueezeBox.close();
+		};
+
+		// Add extra modal close functionality for tinyMCE-based editors
+		document.onreadystatechange = function () {
+			if (document.readyState == 'interactive' && typeof tinyMCE != 'undefined' && tinyMCE)
+			{
+				if (typeof window.jModalClose_no_tinyMCE === 'undefined')
+				{
+					window.jModalClose_no_tinyMCE = typeof(jModalClose) == 'function'  ?  jModalClose  :  false;
+
+					jModalClose = function () {
+						if (window.jModalClose_no_tinyMCE) window.jModalClose_no_tinyMCE.apply(this, arguments);
+						tinyMCE.activeEditor.windowManager.close();
+					};
+				}
+
+				if (typeof window.SqueezeBoxClose_no_tinyMCE === 'undefined')
+				{
+					if (typeof(SqueezeBox) == 'undefined')  SqueezeBox = {};
+					window.SqueezeBoxClose_no_tinyMCE = typeof(SqueezeBox.close) == 'function'  ?  SqueezeBox.close  :  false;
+
+					SqueezeBox.close = function () {
+						if (window.SqueezeBoxClose_no_tinyMCE)  window.SqueezeBoxClose_no_tinyMCE.apply(this, arguments);
+						tinyMCE.activeEditor.windowManager.close();
+					};
+				}
+			}
+		};
+
+(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="//connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v2.0";fjs.parentNode.insertBefore(js,fjs);}(document,"script","facebook-jssdk"));
+		jQuery(document).ready(function(){
+			jQuery("#mod_iccalendar_105").highlightToday("show_today");
+		});
+
+	</script>
+	<!--[if lte IE 8]>
+<link rel="stylesheet" href="/media/mod_pwebfblikebox/css/ie.css" />
+<![endif]-->
+
+
+  <link rel="stylesheet" type="text/css" href="/templates/uamwmii/css/html5reset.css"/>
+  <link rel="stylesheet" type="text/css" href="/templates/uamwmii/css/blueprint/screen.css"/>
+
+  <link rel="stylesheet/less" type="text/css" href="/templates/uamwmii/style.less"/>
+
+  <script type="text/javascript">
+    less = {
+    /*
+      env: "development", // or "production"
+      async: false,       // load imports async
+      fileAsync: false,   // load imports async when in a page under
+                // a file protocol
+      poll: 1000,         // when in watch mode, time in ms between polls
+      functions: {},      // user functions, keyed by name
+      dumpLineNumbers: "comments", // or "mediaQuery" or "all"
+      relativeUrls: false,// whether to adjust url's to be relative
+                // if false, url's are already relative to the
+                // entry less file
+      //rootpath: ":/a.com/"// a path to add on to the start of every url resource
+      //*/
+    };
+  </script>
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script type="text/javascript" src="/templates/uamwmii/js/grayscale.js"></script>
+  <script type="text/javascript">jQuery.noConflict();</script>
+
+  <script src="/templates/uamwmii/less-1.3.3.min.js"></script>
+
+
+  <!-- <link rel="stylesheet" type="text/css" href="/templates/uamwmii/css/style-default.css" />  -->
+  <link rel="alternate stylesheet" type="text/css" media="screen" title="hi-contrast" href="/templates/uamwmii/css/style-alt-hi-contrast.css" />
+
+
+<script type="text/javascript"
+  src="//mathjax.wmi.amu.edu.pl/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+</head>
+<body>
+<script>
+var hoffset= 0;
+
+</script>
+    <div id="HLwrapper" style="position: absolute; margin-top: -400px;">
+       <div id="HLsiteemu" style="width: 800;" >
+        <div id="HLcontainer"  style="margin-right: -50px;">
+            <div ID="HLhidden">
+                 <div ID="HLmodule">
+                      <div ID="HLrender">
+                        <form action="https://www.wmi.amu.edu.pl/pl/pracownicy" method="post" id="login-form" class="form-inline">
+		<div class="userdata">
+		<div id="form-login-username" class="control-group">
+			<div class="controls">
+									<div class="input-prepend">
+						<span class="add-on">
+							<span class="icon-user hasTooltip" title="Użytkownik"></span>
+							<label for="modlgn-username" class="element-invisible">Użytkownik</label>
+						</span>
+						<input id="modlgn-username" type="text" name="username" class="input-small" tabindex="0" size="18" placeholder="Użytkownik" />
+					</div>
+							</div>
+		</div>
+		<div id="form-login-password" class="control-group">
+			<div class="controls">
+									<div class="input-prepend">
+						<span class="add-on">
+							<span class="icon-lock hasTooltip" title="Hasło">
+							</span>
+								<label for="modlgn-passwd" class="element-invisible">Hasło							</label>
+						</span>
+						<input id="modlgn-passwd" type="password" name="password" class="input-small" tabindex="0" size="18" placeholder="Hasło" />
+					</div>
+							</div>
+		</div>
+						<div id="form-login-remember" class="control-group checkbox">
+			<label for="modlgn-remember" class="control-label">Zapamiętaj</label> <input id="modlgn-remember" type="checkbox" name="remember" class="inputbox" value="yes"/>
+		</div>
+				<div id="form-login-submit" class="control-group">
+			<div class="controls">
+				<button type="submit" tabindex="0" name="Submit" class="btn btn-primary login-button">Zaloguj</button>
+			</div>
+		</div>
+					<ul class="unstyled">
+							<li>
+					<a href="/pl/component/users/?view=remind&amp;Itemid=948">
+					Nie pamiętasz nazwy?</a>
+				</li>
+				<li>
+					<a href="/pl/component/users/?view=reset&amp;Itemid=948">
+					Nie pamiętasz hasła?</a>
+				</li>
+			</ul>
+		<input type="hidden" name="option" value="com_users" />
+		<input type="hidden" name="task" value="user.login" />
+		<input type="hidden" name="return" value="aHR0cHM6Ly93d3cud21pLmFtdS5lZHUucGwvcGwvcHJhY293bmljeQ==" />
+		<input type="hidden" name="191c314dc42e332cf44d0314b833efc2" value="1" />	</div>
+	</form>
+                      </div>
+                 </div>
+                 <div ID="HLsep">
+                 </div>
+            </div>
+            <div id="HLhandle">
+                            <SPAN id="HLtrigger" style="cursor:pointer; font-weight: bold; color: #f00; text-decoration: none; font-size: 12px;
+"> Login</span>
+
+            </div>
+        </div>
+       </div>
+	</div>
+
+
+
+  <div class="level top menu">
+
+    <div class="wrapper outer">
+
+      <div class="wrapper inner">
+
+
+        <div class="xyromenu top">
+
+<!---->
+
+<!---->
+
+  <div style="float: right; margin: 13px;">
+
+          		<div class="moduletable english">
+						<div class="mod-languages english">
+
+	<ul class="lang-inline" dir="ltr">
+						<li>
+			<a href="/en/">
+												<img src="/media/mod_languages/images/en.gif" alt="English (UK)" title="English (UK)" />										</a>
+			</li>
+				</ul>
+
+</div>
+		</div>
+
+
+          </div>
+
+        </div>
+  <div style="float: left;">
+        <a class="hi-visibility" href="javascript:chooseStyle('hi-contrast', 3)">Wersja dla niedowidzących</a>
+
+
+
+
+
+        <a class="normal-visibility" href="javascript:chooseStyle('none', 3)">Wersja zwyczajna</a>
+     </div>
+
+      </div>
+
+
+    </div>
+
+  </div><!--Level top menu-->
+  <div class="level banner">
+
+    <div class="wrapper outer">
+      <div class="wrapper inner">
+        <div class="headbox">
+          <a href="http://www.wmi.amu.edu.pl/" class="logo"></a>
+          <h1 class="title">Uniwersytet im. Adama Mickiewicza w Poznaniu</h1>
+          <h2 class="title">Wydział Matematyki i Informatyki</h2>
+        </div>
+        <div class="photo"> </div>
+<div style="text-align:center; width:1001px; margin-left:auto; margin-right:auto;">
+<img src="/templates/uamwmii/img/back-header_przezroczysty.gif" usemap="#Image-Maps_6201311220549287" border="0" width="1001" height="208" alt="" />
+<map id="Image-Maps_6201311220549287" name="Image-Maps_6201311220549287">
+<area shape="rect" coords="22,10,195,181" href="http://amu.edu.pl/" alt="Uniwersytet im. Adama Mickiewicza" title="Uniwersytet im. Adama Mickiewicza"    />
+<area shape="rect" coords="196,11,821,181" href="http://www.wmi.amu.edu.pl/" alt="Wydział Matematyki i Informatyki" title="Wydział Matematyki i Informatyki"    />
+</map>
+       <!-- <a class="headlink" href="http://www.amu.edu.pl/"></a> -->
+	   </div>
+
+        <div class="xyromenu main">
+
+          		<div class="moduletable">
+						<ul class="nav menu mod-list">
+<li class="item-464"><a href="/pl/" >Wydział</a></li><li class="item-444"><a href="/pl/aktualnosci-nauka" >Nauka</a></li><li class="item-207"><a href="/pl/aktualnosci-studenta" >Dla studenta</a></li><li class="item-588"><a href="/pl/aktualnosci-doktoranckie" >Dla doktoranta</a></li><li class="item-590"><a href="/pl/aktualnosci-pracownicze" >Dla pracownika</a></li><li class="item-468"><a href="/pl/aktualnosci-dla-kandydata" >Dla kandydata</a></li><li class="item-549"><a href="/pl/aktualnosci-szkolne" >Dla szkół</a></li></ul>
+		</div>
+
+<!--
+          <ul>
+            <li><a href="#">Wydział</a></li>
+            <li><a href="#">Nauka</a></li>
+            <li><a href="#">Dla pracownika</a></li>
+            <li><a href="#">Dla studenta</a></li>
+            <li><a href="#">Dla doktoranta</a></li>
+            <li><a href="#">Dla kandydata</a></li>
+            <li><a href="#">Dla ucznia</a></li>
+          </ul>
+-->
+
+
+        </div>
+      </div>
+    </div>
+  </div><!--Level banner-->
+
+  <div class="level payload">
+    <div class="wrapper outer">
+      <div class="wrapper inner">
+
+        <div class="column one">
+
+          		<div class="moduletable">
+							<h3>Wydział</h3>
+						<ul class="nav menu mod-list">
+<li class="item-948 default"><a href="/pl/" >Aktualności</a></li><li class="item-501"><a href="/pl/historia" >Historia</a></li><li class="item-502"><a href="/pl/wladze" >Władze</a></li><li class="item-919"><a href="/pl/zarzadzenia-dziekana" >Zarządzenia dziekana</a></li><li class="item-504 current active deeper parent"><a href="/pl/pracownicy" >Pracownicy</a><ul class="nav-child unstyled small"><li class="item-505"><a href="/pl/pracownicy/dziekanat" >Dziekanat</a></li><li class="item-973"><a href="/pl/pracownicy/obsluga-informatyczna-pracownicy" >Obsługa informatyczna</a></li><li class="item-879"><a href="/pl/pracownicy/dyzury-pracownikow" >Dyżury pracowników</a></li></ul></li><li class="item-659"><a href="https://rw.wmi.amu.edu.pl/" target="_blank" rel="noopener noreferrer">Rada Wydziału</a></li><li class="item-986"><a href="/pl/wybory" >Wybory 2016</a></li><li class="item-660 parent"><a href="/pl/biblioteka" >Biblioteka</a></li><li class="item-658"><a href="/pl/struktura-wydzialu" >Struktura wydziału</a></li><li class="item-829"><a href="/pl/jakosc-ksztalcenia" >Jakość kształcenia</a></li><li class="item-508"><a href="http://info.wmi.amu.edu.pl/" >Informator wydziałowy</a></li><li class="item-749"><a href="/pl/rozklad-roku-akademickiego-wydzial" >Rozkład roku akademickiego</a></li><li class="item-514"><a href="https://absolwenci.wmi.amu.edu.pl/" >Absolwenci wydziału</a></li><li class="item-760"><a href="/pl/kontakt" >Kontakt</a></li><li class="item-905"><a href="/pl/support" >Zauważyłeś problem na stronie? Zgłoś!</a></li></ul>
+		</div>
+			<div class="moduletable">
+							<h3>Szybkie linki</h3>
+						<ul class="nav menu mod-list">
+<li class="item-742"><a href="https://amu.edu.pl/" target="_blank" rel="noopener noreferrer">Strona główna UAM</a></li><li class="item-769"><a href="http://eduroam.amu.edu.pl/" target="_blank" rel="noopener noreferrer">Eduroam</a></li><li class="item-801"><a href="https://help.wmi.amu.edu.pl/search/" >Helpdesk</a></li><li class="item-750"><a href="/pl/sukcesy-pracownikow" target="_blank" rel="noopener noreferrer">Sukcesy pracowników</a></li><li class="item-752"><a href="/pl/sukcesy-studentow" target="_blank" rel="noopener noreferrer">Sukcesy studentów</a></li><li class="item-823"><a href="/pl/sukcesy-wydzialu" target="_blank" rel="noopener noreferrer">Sukcesy Wydziału</a></li></ul>
+		</div>
+			<div class="moduletabletitleless">
+						<div class="bannergrouptitleless">
+
+
+</div>
+		</div>
+
+
+<!---->
+          <div class="moduletable">
+
+          </div>
+
+          <div class="moduletable">
+                      </div>
+
+          <div class="moduletable titleless">
+
+          </div>
+<!---->
+
+        </div><!--column one-->
+
+        <div class="content">
+<!--
+          <span class="breadcrumbs">
+            <a href="#">WMiI</a> &gt;
+            <a href="#">Strona G��wna</a> &gt;
+            <a class="active" href="#">WMiI</a> &gt;
+            <a href="#">Aktualno�ci</a>
+          </span>
+--->
+
+
+
+
+<div class="item-page" itemscope itemtype="https://schema.org/Article">
+	<meta itemprop="inLanguage" content="pl-PL" />
+
+
+
+
+
+
+
+								<div itemprop="articleBody">
+		<p>
+<iframe   width="524" height="735"src="//stafflist.wmi.amu.edu.pl" ></iframe>
+</p>
+<p> </p>	</div>
+
+
+							</div>
+
+
+
+
+        </div><!--content-->
+
+
+
+        <div class="column two">
+
+          		<div class="moduletable search">
+						<div class="search search mod_search63">
+	<form action="/pl/pracownicy" method="post" class="form-inline" role="search">
+		<label for="mod-search-searchword63" class="element-invisible"> </label> <input name="searchword" id="mod-search-searchword63" maxlength="200"  class="inputbox search-query input-medium" type="search" size="25" placeholder="Szukaj..." />		<input type="hidden" name="task" value="search" />
+		<input type="hidden" name="option" value="com_search" />
+		<input type="hidden" name="Itemid" value="504" />
+	</form>
+</div>
+		</div>
+			<div class="moduletable">
+							<h3>Kalendarz wydarzeń</h3>
+						<!-- iCagenda - Calendar --><div tabindex="0" id="ic-calendar-105" class="">
+<!-- Calendar -->
+
+
+<div class="ic_rounded iccalendar " style=" background-color: transparent; background-image: none;" id="105"><div id="mod_iccalendar_105">
+			<div class="icagenda_header">
+			</div><div class="icnav"><a id="ic-prev-year" class="backicY icagendabtn_105" href="https://www.wmi.amu.edu.pl/pl/pracownicy?iccaldate=2018-10-1" rel="nofollow"><span style="height: 1px; width: 1px; position: absolute; overflow: hidden; top: -10px;" title="">Poprzedni rok</span><span class="iCicon iCicon-backicY"></span></a><a id="ic-prev-month" class="backic icagendabtn_105" href="https://www.wmi.amu.edu.pl/pl/pracownicy?iccaldate=2019-9-1" rel="nofollow"><span style="height: 1px; width: 1px; position: absolute; overflow: hidden; top: -10px;" title="">Poprzedni miesiąc</span><span class="iCicon iCicon-backic"></span></a><a id="ic-next-year" class="nexticY icagendabtn_105" href="https://www.wmi.amu.edu.pl/pl/pracownicy?iccaldate=2020-10-1" rel="nofollow"><span style="height: 1px; width: 1px; position: absolute; overflow: hidden; top: -10px;" title="">Następny rok</span><span class="iCicon iCicon-nexticY"></span></a><a id="ic-next-month" class="nextic icagendabtn_105" href="https://www.wmi.amu.edu.pl/pl/pracownicy?iccaldate=2019-11-1" rel="nofollow"><span style="height: 1px; width: 1px; position: absolute; overflow: hidden; top: -10px;" title="">Następny miesiąc</span><span class="iCicon iCicon-nextic"></span></a><div class="titleic">Październik 2019</div></div><div style="clear:both"></div>
+			<table id="icagenda_calendar" class="ic-table" style="width:100%;">
+				<thead>
+					<tr>
+						<th style="width:14.2857143%;background: ;">Pn</th>
+						<th style="width:14.2857143%;background: ;">Wt</th>
+						<th style="width:14.2857143%;background: ;">Śr</th>
+						<th style="width:14.2857143%;background: ;">Cz</th>
+						<th style="width:14.2857143%;background:#ffffff;">Pt</th>
+						<th style="width:14.2857143%;background:#aaaaaa;">So</th>
+						<th style="width:14.2857143%;background:#aaaaaa;">N</th>
+					</tr>
+				</thead>
+		<tr><td colspan="1"></td><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2019-10-01">
+		1	</div>
+</td><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2019-10-02">
+		2	</div>
+</td><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2019-10-03">
+		3	</div>
+</td><td style="background:#ffffff;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2019-10-04">
+		4	</div>
+</td><td style="background:#aaaaaa;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2019-10-05">
+		5	</div>
+</td><td style="background:#aaaaaa;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2019-10-06">
+		6	</div>
+</td><tr><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2019-10-07">
+		7	</div>
+</td><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2019-10-08">
+		8	</div>
+</td><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2019-10-09">
+		9	</div>
+</td><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2019-10-10">
+		10	</div>
+</td><td style="background:#ffffff;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2019-10-11">
+		11	</div>
+</td><td style="background:#aaaaaa;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2019-10-12">
+		12	</div>
+</td><td style="background:#aaaaaa;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2019-10-13">
+		13	</div>
+</td><tr><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Today" data-cal-date="2019-10-14">
+		14	</div>
+</td><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2019-10-15">
+		15	</div>
+</td><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2019-10-16">
+		16	</div>
+</td><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2019-10-17">
+		17	</div>
+</td><td style="background:#ffffff;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2019-10-18">
+		18	</div>
+</td><td style="background:#aaaaaa;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2019-10-19">
+		19	</div>
+</td><td style="background:#aaaaaa;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2019-10-20">
+		20	</div>
+</td><tr><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2019-10-21">
+		21	</div>
+</td><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2019-10-22">
+		22	</div>
+</td><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2019-10-23">
+		23	</div>
+</td><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2019-10-24">
+		24	</div>
+</td><td style="background:#ffffff;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2019-10-25">
+		25	</div>
+</td><td style="background:#aaaaaa;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2019-10-26">
+		26	</div>
+</td><td style="background:#aaaaaa;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2019-10-27">
+		27	</div>
+</td><tr><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2019-10-28">
+		28	</div>
+</td><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2019-10-29">
+		29	</div>
+</td><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2019-10-30">
+		30	</div>
+</td><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2019-10-31">
+		31	</div>
+</td><td colspan="3"></td></tr></table></div></div>
+</div>
+<script type="text/javascript">
+(function($){
+	var icmouse = 'mouseover';
+	var mouseout = '1';
+	var icclasstip = '.icevent a';
+	var icclass = '.iccalendar';
+	var position = 'left';
+	var posmiddle = 'top';
+	var modid = '105';
+	var modidid = '#105';
+	var icagendabtn = '.icagendabtn_105';
+	var mod_iccalendar = '#mod_iccalendar_105';
+	var template = '.ic_rounded';
+	var loading = 'trwa wczytywanie...';
+	var closetxt = 'Zamknij';
+	var tip_type = '1';
+	var tipwidth = 390;
+	var smallwidththreshold = 481;
+	var verticaloffset = 50;
+	var css_position = '';
+	var mobile_min_width = 320;
+	var extra_css = '';
+
+	$(document).on('click touchend', icagendabtn, function(e){		e.preventDefault();
+
+		url=$(this).attr('href');
+
+		$(modidid).html('<\div class="icloading_box"><\div style="text-align:center;">' + loading + '<\/div><\div class="icloading_img"><\/div><\/div>').load(url + ' ' + mod_iccalendar, function(){$('#mod_iccalendar_105').highlightToday();});
+
+	});
+
+	// Calendar Keyboard Accessibility (experimental, since 3.5.14)
+	if (typeof first_mod === 'undefined') {
+		$i = '1';
+		first_mod = modid;
+		first_nb = $i;
+		nb_mod = $i;
+	} else {
+		$i = (typeof $i === 'undefined') ? '2' : ++$i;
+		nb_mod = $i;
+	}
+
+	$('#ic-calendar-'+modid).addClass('ic-'+nb_mod);
+
+	$(document).keydown(function(e){
+
+		// ctrl+alt+C : focus on first Calendar module
+		// REMOVE: Polish language conflict, alt+C Ć
+//		if (e.ctrlKey && e.altKey && e.keyCode == 67) {
+//			$('#ic-calendar-'+first_mod).focus();
+//		}
+
+		// ctrl+alt+N : focus on Next calendar module
+		if (e.ctrlKey && e.altKey && e.keyCode == 78) {
+			if ($('#ic-calendar-'+modid).is(':focus')) {
+				activ = $('#ic-calendar-'+modid).attr('class');
+				act = activ.split('-');
+				act = act[1];
+				next = ++act;
+			}
+			mod_class = $('#ic-calendar-'+modid).attr('class');
+			if ($('.ic-'+next).length == 0) next = 1;
+			if (mod_class == 'ic-'+next) $('.ic-'+next).focus();
+		}
+
+		// On focused calendar module
+		if ($('#ic-calendar-'+modid).is(':focus')){
+			switch (e.keyCode) {
+				case 37:
+					// Left arrow pressed
+					url = $('#ic-calendar-'+modid+' #ic-prev-month').attr('href');
+					break;
+				case 38:
+					// Top arrow pressed
+					url = $('#ic-calendar-'+modid+' #ic-next-year').attr('href');
+					break;
+				case 39:
+					// Right arrow pressed
+					url = $('#ic-calendar-'+modid+' #ic-next-month').attr('href');
+					break;
+				case 40:
+					// Top arrow pressed
+					url = $('#ic-calendar-'+modid+' #ic-prev-year').attr('href');
+					break;
+			}
+
+			if ((!e.shiftKey && (e.keyCode == 37 || e.keyCode == 39)) ||
+				(e.shiftKey && (e.keyCode == 38 || e.keyCode == 40))) {
+				$(modidid).html('<\div class="icloading_box"><\div style="text-align:center;">' + loading + '<\/div><\div class="icloading_img"><\/div><\/div>').load(url + ' ' + mod_iccalendar, function(){$('#mod_iccalendar_105').highlightToday();});
+			}
+
+//			if ($(modidid+' '+icclasstip).is(':focus') && e.keyCode == 13){
+//				var icmouse = "click";
+//			}
+		}
+	});
+
+	if (tip_type=='2') {	$(document).on(icmouse, this, function(e){
+		e.preventDefault();
+
+		$(".iCaTip").tipTip({maxWidth: "400", defaultPosition: "top", edgeOffset: 1, activation:"hover", keepAlive: true});
+	});
+	}
+
+	if (tip_type=='1') {		$view_width=$(window).width();		if($view_width<smallwidththreshold){			icmouse='click touchend';
+		}
+
+		$(document).on(icmouse, modidid+' '+icclasstip, function(e){
+			$view_height=$(window).height();			$view_width=$(window).width();			e.preventDefault();
+			$('#ictip').remove();
+			$parent=$(this).parent();
+			$tip=$($parent).children(modidid+' .spanEv').html();
+
+			if ($view_width < smallwidththreshold)
+			{
+								css_position = 'fixed';
+				$width_px = Math.max(mobile_min_width,$view_width); 				$width = '100%';
+				$pos = '0px';
+				$top = '0px';
+				extra_css='border:0;border-radius:0;height:100%;box-shadow:none;margin:0px;padding:10px;min-width:'+mobile_min_width+'px;overflow-y:scroll;padding:0;';			}
+			else
+			{
+				css_position = 'absolute';
+				$width_px = Math.min($view_width, tipwidth);
+				$width = $width_px+'px';
+
+								switch(position) {
+					case 'left':
+						$pos=Math.max(0,$(modidid).offset().left-$width_px-10)+'px';
+						break;
+					case 'right':
+						$pos=Math.max(0,Math.min($view_width-$width_px,$(modidid).offset().left+$(modidid).width()+10))+'px';
+						break;
+					default:						$pos=Math.ceil(($view_width-$width_px)/2)+'px';
+						break;
+				}
+
+								if (posmiddle === 'top')
+				{
+					$top = Math.max(0,$(modidid).offset().top-verticaloffset)+'px';				}
+				else
+				{
+					$top = Math.max(0,$(modidid).offset().top+$(modidid).height()-verticaloffset)+'px';				}
+			}
+
+
+			$('body').append('<\div style="display:block; position:'+css_position+'; width:'+$width+'; left:'+$pos+'; top:'+$top+';'+extra_css+'" id="ictip"> '+$(this).parent().children('.date').html()+'<a class="close" style="cursor: pointer;"><\div style="display:block; width:auto; height:50px; text-align:right;">' + closetxt + '<\/div></a><span class="clr"></span>'+$tip+'<\/div>');
+
+			// Tooltip Keyboard Accessibility (experimental, since 3.5.14)
+			$(document).keydown(function(e){
+				//	Shift : focus on tooltip events
+				if ($('.icevent a').is(':focus') && e.keyCode == 16){
+					$('.ictip-event a').focus();
+				}
+				//	esc : close tooltip
+				if (($('.ictip-event a').is(':focus') || $('.icevent a').is(':focus')) && e.keyCode == 27){
+					e.preventDefault();
+					$('#ictip').remove();
+				}
+			});
+
+			// Close Tooltip
+			$(document).on('click touchend', '.close', function(e){
+				e.preventDefault();
+				$('#ictip').remove();
+			});
+
+			if (mouseout == '1')
+			{
+				$('#ictip')
+					.mouseout(function() {
+//						$( "div:first", this ).text( "mouse out" );
+						$('#ictip').stop(true).fadeOut(300);
+					})
+					.mouseover(function() {
+//						$( "div:first", this ).text( "mouse over" );
+						$('#ictip').stop(true).fadeIn(300);
+					});
+			}
+		});
+	}
+
+}) (jQuery);
+</script>
+		</div>
+			<div class="moduletabletitleless">
+						<div class="bannergrouptitleless">
+
+	<div class="banneritem">
+																																																																			<a
+							href="/pl/component/banners/click/6" target="_blank" rel="noopener noreferrer"
+							title="Najlepszy kierunek">
+							<img
+								src="https://www.wmi.amu.edu.pl/images/banners/mat01C.jpg"
+								alt="Najlepszy kierunek"
+								 width="200"															/>
+						</a>
+																<div class="clr"></div>
+	</div>
+	<div class="banneritem">
+																																																																			<a
+							href="/pl/component/banners/click/24" target="_blank" rel="noopener noreferrer"
+							title="RTW">
+							<img
+								src="https://www.wmi.amu.edu.pl/images/banners/r2w-logo_baner.jpg"
+								alt="RTW"
+																							/>
+						</a>
+																<div class="clr"></div>
+	</div>
+	<div class="banneritem">
+																																																																			<a
+							href="/pl/component/banners/click/21" target="_blank" rel="noopener noreferrer"
+							title="ESIT">
+							<img
+								src="https://www.wmi.amu.edu.pl/images/banners/esit_logo__web_RGB_baner_boczny.png"
+								alt="ESIT"
+																							/>
+						</a>
+																<div class="clr"></div>
+	</div>
+	<div class="banneritem">
+																																																																			<a
+							href="/pl/component/banners/click/26" target="_blank" rel="noopener noreferrer"
+							title="CzasNaStaz">
+							<img
+								src="https://www.wmi.amu.edu.pl/images/banners/czasnastaz.png"
+								alt="CzasNaStaz"
+																 height="59"							/>
+						</a>
+																<div class="clr"></div>
+	</div>
+	<div class="banneritem">
+																																																																			<a
+							href="/pl/component/banners/click/7" target="_blank" rel="noopener noreferrer"
+							title="Laboratoria">
+							<img
+								src="https://www.wmi.amu.edu.pl/images/banners/laboratoria.jpg"
+								alt="Laboratoria"
+																							/>
+						</a>
+																<div class="clr"></div>
+	</div>
+	<div class="banneritem">
+																																																																			<a
+							href="/pl/component/banners/click/11" target="_blank" rel="noopener noreferrer"
+							title="Samorząd Studencki">
+							<img
+								src="https://www.wmi.amu.edu.pl/images/banners/samorzad.jpg"
+								alt="Samorząd Studencki"
+																							/>
+						</a>
+																<div class="clr"></div>
+	</div>
+	<div class="banneritem">
+																																																																			<a
+							href="/pl/component/banners/click/4" target="_blank" rel="noopener noreferrer"
+							title="Usos Web">
+							<img
+								src="https://www.wmi.amu.edu.pl/images/banners/usos.jpg"
+								alt="Usos Web"
+																							/>
+						</a>
+																<div class="clr"></div>
+	</div>
+	<div class="banneritem">
+																																																																			<a
+							href="/pl/component/banners/click/10" target="_blank" rel="noopener noreferrer"
+							title="Wirtualny Spacer">
+							<img
+								src="https://www.wmi.amu.edu.pl/images/banners/7.jpg"
+								alt="Wirtualny Spacer"
+								 width="200"															/>
+						</a>
+																<div class="clr"></div>
+	</div>
+	<div class="banneritem">
+																																																																			<a
+							href="/pl/component/banners/click/9" target="_blank" rel="noopener noreferrer"
+							title="Precyzja myslenia">
+							<img
+								src="https://www.wmi.amu.edu.pl/images/banners/5.jpg"
+								alt="Precyzja myslenia"
+								 width="200"															/>
+						</a>
+																<div class="clr"></div>
+	</div>
+
+</div>
+		</div>
+
+ <!--
+          <div class="moduletable search">
+            <input type="text">
+          </div>
+
+          <div class="moduletable">
+
+          </div>
+-->
+          <div class="moduletable titleless">
+
+          </div>
+
+<!-- -->
+        </div><!--column one-->
+      </div>
+    </div>
+  </div><!--Level payload-->
+
+
+
+  <div class="level footer">
+    <div class="wrapper outer">
+      <div class="wrapper inner">
+
+        		<div class="moduletable">
+						<!-- PWebFBLikeBox -->
+<div id="pwebfblikebox106" class="pwebfblikebox pwebfblikebox-right pwebfblikebox-radius pwebfblikebox-shadow slidebox ">
+	<div class="pwebfblikebox_tab f-white"></div>
+		<div class="pwebfblikebox_container" style="width:292px;"><div id="fb-root"></div><div class="fb-like-box" id="pwebfblikebox106_html5" data-href="https://www.facebook.com/wmiuam?fref=ts" data-stream="false" data-show-faces="false" data-header="false" data-width="292" data-show-border="false"></div></div>
+</div>
+
+<script type="text/javascript">
+(function(){
+	pwebFBLikeBox106 = new pwebFBLikeBox({
+		id: 		106,
+		prefix: 	'pwebfblikebox106',
+		open: 		'click',
+		close: 		'click',
+				position: 	'right',
+		top: 		-1,
+		layout: 	'slidebox'
+	});
+})();
+if(typeof window.fbAsyncInit=="function")window.fbAsyncInitPweb=window.fbAsyncInit;window.fbAsyncInit=function(){FB.Event.subscribe("edge.create",function(u){if(typeof _gaq!="undefined")_gaq.push(["_trackSocial","facebook","like",u])});FB.Event.subscribe("edge.remove",function(u){if(typeof _gaq!="undefined")_gaq.push(["_trackSocial","facebook","unlike",u])});if(typeof window.fbAsyncInitPweb=="function")window.fbAsyncInitPweb.apply(this,arguments)};</script>
+<!-- PWebFBLikeBox end -->		</div>
+
+
+        <p>Collegium Mathematicum, ul. Uniwersytetu Poznańskiego 4, 61-614 Poznań, tel. 61829-5308, fax. 61829-5315, e-mail: <a href="mailto:wmiuam@amu.edu.pl">wmiuam@amu.edu.pl</a></p>
+      </div>
+    </div>
+  </div><!--Level footer-->
+
+
+  <script src="/templates/uamwmii/js/styleswitch.js" type="text/javascript">
+   /***********************************************
+   * Style Sheet Switcher v1.1- © Dynamic Drive DHTML code library (www.dynamicdrive.com)
+   * This notice MUST stay intact for legal use
+   * Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
+   ***********************************************/
+  </script>
+
+
+
+</body>
+</html>
+
