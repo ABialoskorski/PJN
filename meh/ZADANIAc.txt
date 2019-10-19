@@ -1,0 +1,23 @@
+//C08
+sed 's/[[:punct:]]//g' | wc -w
+
+//C07
+nl | tac
+
+//C06
+sed 'y/(ąĄęĘóÓłŁżŻźŹćĆśŚ)/XXXXXXXXXXXXXXXX/'
+
+//C05
+egrep -o '(sz|cz)' | wc -l
+
+//C04
+head -20 | tail -11
+
+//C03
+head -123 | tail -1
+
+//C02
+tr ',' \\t | cut -f 3 | sort -run | head -1
+
+//C01
+sort -nur

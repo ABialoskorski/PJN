@@ -1,8 +1,8 @@
 import re
 
+file4 = open('page.html')
+data = file4.read()
+maile = re.findall(r'[a-zA-Z0-9_.+]+@[a-zA-Z0-9]+\.[a-zA-Z0-9-.]+',
+    str(data))
 
-with open('page.txt') as file:
-    for line in file:
-        line = line.rstrip()
-        if re.match(r'^[a-z0-9_.-]+@[a-z0-9_.-]+\.\w{2,4}$', line):
-            print(line)
+print(maile)
