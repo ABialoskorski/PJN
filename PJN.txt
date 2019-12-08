@@ -1,0 +1,175 @@
+B01: Dane z formularza 
+Napisz program, który pobiera dane użytkownika: imię, nazwisko, telefon, kod pocztowy, miasto. Program powinien sprawdzać, czy:
+  Imię, nazwisko i miasto zaczynają się wielką literą
+  telefon jest w formacie: (61) 222-45-56
+  kod pocztowy jest w formacie: 11-111
+
+import re
+name = input("What's your name? ")
+surname = input("What's your surname? ")
+number = input("What's your telephone number? ")
+post_code = input("What's your post code? ")
+city = input("What is the name of your city? ")
+
+if(re.match("^[A-Z][a-z]*$",name) and re.match("^[A-Z][a-z]*$",surname)):
+  print("Correct name and surname format")
+else:
+  print("Incorrect name or surname format")
+
+if(re.match("^\(\d\d\) \d\d\d-\d\d-\d\d$",number)):
+  print("Correct number format")
+else:
+  print("Incorrect number format")
+
+if(re.match("^\d\d-\d\d\d$",post_code)):
+  print("Correct post code format")
+else:
+  print("Incorrect post code format")
+
+B02: Walidacja CSV
+Napisz program, który sprawdzi poprawność pliku CSV. Poprawny plik zawiera
+linie składające się z trzech pól, z czego pierwsze pole jest dowolnym łańcuchem
+znaków, a drugie i trzecie - liczbą całkowitą. Separatorem jest znak średnika.
+
+import re
+
+with open("plik.csv","r") as in_file:
+  for line in in_file:
+    if(re.match("^.*;\d*;\d*;$",line)):
+      a = True
+    else:
+      a = False
+      break
+  if(a):
+    print("File is correct")
+  else:
+    print("File is incorrect")
+
+B03: Antybluzgacz
+Napisz program, który znajdzie w tekście jak największą liczbę wulgaryzmów i zastąpi je ciągiem znaków "---". Użyj wyrażeń regularnych.
+
+import re
+
+with open("plik.txt", "r") as plik:
+    with open("ocenzurowany.txt", "w") as cenzura:
+        regex = re.compile(r"(u|z|ze|za|na|prze|przy|w|wy|o|od|do|po|pod|s|matko)*(dup|pizd|rucha|pier(d|)|suk(i|a)|sra|kuta(s|fon)|pieprz|chuj|jeb|kurw|kurew|cip)[^\s-]*",re.IGNORECASE)
+        for line in plik:
+            line = regex.sub("---", line)
+            print(line)
+            cenzura.write(line)
+
+B04: E-maile
+Napisz program do znajdowania wszystkich e-maili w pliku. Przetestuj go na
+zapisanym źródle strony internetowej zawierającej e-maile.
+
+import re
+
+with open("plik.html", "r") as plik:
+    regex = re.compile(r"[\w\.-]+@[\w\.-]+",re.IGNORECASE)
+    for line in plik:
+        print(regex.findall(line))
+
+C01 Napisać program, który wypisze podane liczby posortowane malejąco i bez powtórzeń.
+sort -gur plik.txt
+
+C02 W kolejnych wierszach dane są informacje na temat samochodów (marka, model, prędkość maksymalna). Napisać program, który wypisze prędkość najszybszego samochodu.
+cut -d "," -f 3-3 plik.txt | sort -g | tail -1
+
+C03 Wypisać 123 linię wejścia.
+head -123 plik | tail -1
+
+C04 Wypisać linie od 10 do 20 włącznie (razem 11 linii).
+head -20 plik.txt | tail -11
+
+C05 Napisać program, który policzy sumaryczną ilość dwuznaków "cz" i "sz" na wejściu.
+#!/bin/bash
+var=$(grep -o "sz" plik | wc -l)
+var2=$(grep -o "cz" plik | wc -l)
+echo $(($var+$var2))
+
+C06 Napisać program, który zamieni wszystkie polskie znaki (małe i wielkie) na "X".
+cat plik.txt | tr [ąęłćńóśżźĄĘŁĆŃÓŚŻŹ] "X"
+
+C07 Napisać program, który ponumeruje linie wejścia a następnie wypisze je w odwrotnej kolejności.
+cat -n plik | sort -r
+
+C08 Napisać program, który policzy liczbę słów w tekście (ale nie policzy interpunkcji).
+cat plik | tr '[[:punct:]]' ' ' | wc -w
+
+D01: Szlifierki kątowe
+Napisz program, który ściągnie jak najwięcej nazw modeli szlifierek kątowych.
+
+import urllib.request
+from bs4 import BeautifulSoup
+import re
+
+titles = []
+
+for x in range(1,30):
+  with urllib.request.urlopen("https://www.narzedzia.pl/katowe,c12395,{}/?gclid=EAIaIQobChMI_6yfldfM3gIVFuWaCh1reg_SEAAYASAAEgLRx_D_BwE".format(str(x))) as response:
+    html = response.read()
+    soup = BeautifulSoup(html, 'html.parser')
+    pattern = re.compile(r"szlifierka kątowa (.*)",re.IGNORECASE)
+    for a in soup.find_all("a"):
+      if a.string:
+        word = pattern.search(a.string)
+        if word:
+          word = word.group(1) 
+          print(word)
+          titles.append(word)
+print("----------------------WYNIKI----------------------------")
+lista = list(set(titles))
+lista = filter(lambda x: not re.search(r"^[0-9]+ mm|^\+.*",x),lista)
+for e in sorted(lista):
+  print(e)
+
+D02: Ekstraklasa
+Zbuduj sumaryczną tabelę polskiej ekstraklasy w piłce nożnej w sezonach od 2008/2009 do 2017/2018. 
+Dla każdej drużyny oblicz sumę punktów zdobytych we wszystkich tych sezonach i zbuduj ranking drużyn. 
+Wskazówka - tabele końcowe ekstraklasy w poszczególnych sezonach dostępne są na Wikipedii.
+
+import urllib.request
+from bs4 import BeautifulSoup
+import re
+
+
+def makeTable(scoreTable,start_year):
+  with urllib.request.urlopen("https://pl.wikipedia.org/wiki/Ekstraklasa_w_pi%C5%82ce_no%C5%BCnej_("+str(start_year)+"/"+str(start_year+1)+")") as response:
+    html = response.read()
+    soup = BeautifulSoup(html, 'html.parser')
+
+    span = soup.find('span',id="Runda_zasadnicza")
+    if not span:
+      span = soup.find('span',id="Rozgrywki")
+
+    table = span.parent.next_sibling.next_sibling.next_sibling.next_sibling
+    scores = []
+    for td in table.find_all('td'):
+      i = td.a.string if td.a else td.b.string if td.b else None
+      if i and not re.search("Wejście|UEFA|Spadek|Drużyna|ligi",i) :
+        scores.append(i)
+    for i,x in enumerate(scores):
+      if re.search(r"[^0-9]+",x):
+        if x in scoreTable:
+          scoreTable[x] = (scoreTable[x]+int(scores[i+1]))
+        else:
+          scoreTable[x] = (int(scores[i+1]))
+    print(scoreTable)
+
+score = {}
+for i in range(2008,2017):
+  makeTable(score, i)
+
+score = score.items()
+for t in sorted(score, key=lambda tup: tup[1],reverse = True):
+  print(t)
+
+
+
+
+
+
+
+
+
+
