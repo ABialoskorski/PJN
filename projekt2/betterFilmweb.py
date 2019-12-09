@@ -9,7 +9,7 @@ from sklearn.preprocessing import LabelEncoder
 # classifier = RandomForestClassifier()
 classifier = AdaBoostClassifier()
 
-dataset = pd.read_csv("mycsvfile2.csv", sep="\t")
+dataset = pd.read_csv("mycsv.csv", sep="\t")
 dataset.shape
 X = dataset.drop('vote_average', axis=1).drop(
     'backdrop_path', axis=1).drop('genres', axis=1).drop('imdb_id', axis=1).drop('homepage', axis=1).drop('belongs_to_collection', axis=1).drop('production_companies', axis=1).drop('production_countries', axis=1).drop('spoken_languages', axis=1)
