@@ -1,18 +1,18 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
-# from sklearn.tree import DecisionTreeClassifier
+from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier, AdaBoostClassifier
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 from sklearn.preprocessing import LabelEncoder
 
-# classifier = DecisionTreeClassifier()
+classifier = DecisionTreeClassifier()
 # classifier = RandomForestClassifier()
-classifier = AdaBoostClassifier()
+# classifier = AdaBoostClassifier()
 
 dataset = pd.read_csv("mycsvfile2.csv", sep="\t")
 dataset.shape
 X = dataset.drop('vote_average', axis=1).drop(
-    'backdrop_path', axis=1).drop('genres', axis=1).drop('imdb_id', axis=1).drop('homepage', axis=1).drop('belongs_to_collection', axis=1).drop('production_companies', axis=1).drop('production_countries', axis=1).drop('spoken_languages', axis=1)
+    'backdrop_path', axis=1).drop('imdb_id', axis=1).drop('homepage', axis=1).drop('belongs_to_collection', axis=1).drop('production_companies', axis=1).drop('production_countries', axis=1).drop('spoken_languages', axis=1)
 Y = dataset['vote_average']
 
 lb = LabelEncoder()
@@ -21,7 +21,7 @@ lb_budget = LabelEncoder()
 lb_id = LabelEncoder()
 lb_language = LabelEncoder()
 lb_tittle = LabelEncoder()
-lb_overwie = LabelEncoder()
+lb_overview = LabelEncoder()
 lb_popularity = LabelEncoder()
 lb_poster = LabelEncoder()
 lb_release = LabelEncoder()
@@ -41,24 +41,17 @@ X['budget'] = lb_budget.fit_transform(X['budget'])
 X['id'] = lb_id.fit_transform(X['id'])
 X['original_language'] = lb_language.fit_transform(X['original_language'])
 X['original_title'] = lb_tittle.fit_transform(X['original_title'])
-
 X['overview'] = X['overview'].fillna('')
-X['overview'] = lb_overwie.fit_transform(X['overview'])
-
+X['overview'] = lb_overview.fit_transform(X['overview'])
 X['popularity'] = lb_popularity.fit_transform(X['popularity'])
-
 X['poster_path'] = X['poster_path'].fillna('')
 X['poster_path'] = lb_poster.fit_transform(X['poster_path'])
-
 X['release_date'] = X['release_date'].fillna('')
 X['release_date'] = lb_release.fit_transform(X['release_date'])
 X['revenue'] = lb_revenue.fit_transform(X['revenue'])
-
 X['runtime'] = X['runtime'].fillna('0')
-
 X['runtime'] = lb_runtime.fit_transform(X['runtime'])
 X['status'] = lb_status.fit_transform(X['status'])
-
 X['tagline'] = X['tagline'].fillna('')
 X['tagline'] = lb_tagline.fit_transform(X['tagline'])
 X['title'] = lb_title.fit_transform(X['title'])

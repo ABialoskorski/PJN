@@ -1,8 +1,8 @@
-'''RandomForestClassifier, piąty pomiar, gorszy niż DecisionTree, duża baza'''
+'''RandomForestClassifier, piąty pomiar, gorszy niż DecisionTree'''
 
 Accuracy:
 
-0.13511516731855716
+0.13511516731855716 = 13.51%
 
  Report:
 

@@ -1,8 +1,9 @@
 '''DecisionTreeClassifier, czwarty pomiar '''
 ''' dane nie są śmieciowe, stąd niska precyzja '''
+
 Accuracy:
 
-0.13563667970447632
+0.13563667970447632 = 13.56%
 
  Report:
 

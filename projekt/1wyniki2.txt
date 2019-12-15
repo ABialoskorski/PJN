@@ -1,8 +1,8 @@
-'''RandomForestClassifier, drugi pomiar, jest progress '''
+'''RandomForestClassifier, drugi pomiar, lepszy wynik '''
 
 Accuracy:
 
-0.9197689164435677
+0.9197689164435677 = 91.98%
 
  Report:
 

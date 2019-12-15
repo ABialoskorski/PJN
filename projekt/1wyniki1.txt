@@ -2,7 +2,7 @@ Accuracy:
 #DecisionTreeClassifier
 ''' wynik jest mocno zawyżony, ponieważ zawiera wiele słabych filmów o ocenie 0'''
 
-0.9150063407073411
+0.9150063407073411 = 91.50%
 
  Report:
 
